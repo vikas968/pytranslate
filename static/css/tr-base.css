@@ -1,0 +1,19 @@
+
+        body {
+    margin: 0;
+     padding: 0;
+     background-color: #B0E0E6;
+ }
+ 
+ .navbar {
+    background-color: teal;
+ }
+ 
+ .navbar-toggler {
+    border: none;
+     cursor: pointer;
+ }
+.container-main{
+    min-height: 78vh;
+     background-color: #B0E0E6;
+ }
