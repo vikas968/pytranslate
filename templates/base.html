@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
 
@@ -51,6 +52,7 @@
     </nav>
 
     <div class="container container-main my-2 bg-light">
+        <img src="{% static 'img/translate.png' %}">
         {% block contents %}
         {% endblock %}
     </div>
