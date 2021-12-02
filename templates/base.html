@@ -38,7 +38,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand mx-3" href="#">
-                <i class="mx-2" data-feather="dribbble"></i>PyTranslate</a>
+                <img class="mx-2 rounded" src="{% static 'img/translate.png' %}" height="32px">PyTranslate</a>
             <a class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon"></span> -->
@@ -52,7 +52,7 @@
     </nav>
 
     <div class="container container-main my-2 bg-light">
-        <img src="{% static 'img/translate.png' %}">
+        <img src="{% static 'img/translate.png' %}" height="32px">
         {% block contents %}
         {% endblock %}
     </div>
@@ -61,7 +61,7 @@
         <hr>
         <div class="col-md-4 d-flex align-items-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                <i class="mx-2" data-feather="dribbble"></i>
+                <img src="{% static 'img/translate.png' %}" height="32px">
             </a>
             <span class="text-muted">© 2021 PyTranslate, Inc</span>
         </div>
