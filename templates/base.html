@@ -27,6 +27,9 @@
             border: none;
             cursor: pointer;
         }
+        .container-main{
+            min-height: 80vh;
+        }
     </style>
 </head>
 
@@ -46,11 +49,33 @@
             </div>
         </div>
     </nav>
-    
-    <div class="container my-2 bg-light">
+
+    <div class="container container-main my-2 bg-light">
         {% block contents %}
         {% endblock %}
     </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-light mx-auto">
+        <hr>
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <i class="mx-2" data-feather="dribbble"></i>
+            </a>
+            <span class="text-muted">© 2021 PyTranslate, Inc</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#">
+                <i data-feather="twitter"></i>
+            </li>
+            <li class="ms-3"><a class="text-muted" href="#">
+                <i data-feather="instagram"></i>
+            </li>
+            <li class="ms-3"><a class="text-muted" href="#">
+                <i data-feather="facebook"></i>
+            </li>
+        </ul>
+    </footer>
+
     <!-- feather JavaScript; choose one of the two! -->
     <script>
         feather.replace()
