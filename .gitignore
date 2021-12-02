@@ -2,3 +2,4 @@ db.sqlite3
 /pytranslate/__pycache__/
 /pytrans/__pycache__/
 /pytrans/migrations/
+/static/admin/
