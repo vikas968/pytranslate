@@ -20,12 +20,12 @@
         <div class="container-fluid">
             <a class="navbar-brand mx-3" href="#">
                 <img class="mx-2 rounded" src="{% static 'img/translate.png' %}" height="32px">PyTranslate</a>
-            <a class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon"></span> -->
                 <i data-feather="menu"></i>
             </a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div class="collapse navbar-collapse" id="navbarToggler">
                 {% block nav-links %}
                 {% endblock %}
             </div>
@@ -37,23 +37,22 @@
         {% endblock %}
     </div>
 
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-light mx-auto">
-        <hr>
-        <div class="col-md-4 d-flex align-items-center">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top mx-auto">
+        <div class="col-md-4 d-flex align-items-center mx-auto">
             <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                <img src="{% static 'img/translate.png' %}" height="32px">
+                <img class="rounded" src="{% static 'img/translate.png' %}" height="32px">
             </a>
-            <span class="text-muted">© 2021 PyTranslate, Inc</span>
+            <span class="text-light">© 2021 PyTranslate, Inc</span>
         </div>
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-muted" href="#">
-                <i data-feather="twitter"></i>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex mx-auto">
+            <li class="ms-3"><a class="text-light" href="#">
+                    <i data-feather="twitter"></i>
             </li>
-            <li class="ms-3"><a class="text-muted" href="#">
-                <i data-feather="instagram"></i>
+            <li class="ms-3"><a class="text-light" href="#">
+                    <i data-feather="instagram"></i>
             </li>
-            <li class="ms-3"><a class="text-muted" href="#">
-                <i data-feather="facebook"></i>
+            <li class="ms-3"><a class="text-light" href="#">
+                    <i data-feather="facebook"></i>
             </li>
         </ul>
     </footer>

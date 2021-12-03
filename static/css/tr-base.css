@@ -7,11 +7,14 @@
  
  .navbar {
     background-color: teal;
- }
- 
- .navbar-toggler {
+}
+
+.navbar-toggler {
     border: none;
-     cursor: pointer;
+    cursor: pointer;
+}
+footer{
+     background-color: teal;
  }
 .container-main{
     min-height: 78vh;
